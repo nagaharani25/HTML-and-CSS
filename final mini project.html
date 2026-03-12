@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Annamacharya University</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background-color:#f2f2f2;
+}
+
+/* Header */
+header{
+    background-color:#008b8b;
+    color:white;
+    padding:15px;
+}
+
+.header-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+
+.logo{
+    width:90px;
+    height:90px;
+}
+
+/* Navigation */
+nav{
+    background-color:black;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00ffff;
+}
+
+/* Main container */
+.box1{
+    width:1000px;
+    min-height:600px;
+    border:3px solid black;
+    padding:20px;
+    background-color:lightblue;
+    margin:40px auto;
+    text-align:center;
+}
+
+/* Login Box */
+.box{
+    width:300px;
+    border:3px solid black;
+    padding:20px;
+    background-color:white;
+    margin:30px auto;
+}
+
+/* Result container */
+.container{
+    width:420px;
+    background:white;
+    margin:30px auto;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 12px gray;
+}
+
+/* Inputs */
+input{
+    width:90%;
+    padding:10px;
+    margin:10px 0;
+}
+
+/* Button */
+button{
+    padding:10px 25px;
+    background-color:#008b8b;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+/* Footer */
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="header-container">
+
+<img src="logo.png" class="logo" alt="University Logo">
+
+<div>
+<h1>Annamacharya University</h1>
+<p>Examination Results Portal</p>
+</div>
+
+</div>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Results</a>
+<a href="#">Notifications</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="box1">
+
+<h2>Welcome to my website</h2>
+<h4>This is a simple website created using HTML and CSS</h4>
+
+<!-- Student Login -->
+<div class="box">
+
+<h2>Student Login</h2>
+
+<form>
+
+<label>Registration Number:</label><br>
+<input type="text" placeholder="Registration Number"><br>
+
+<label>Password:</label><br>
+<input type="password" placeholder="Password"><br><br>
+
+<button type="submit">Login</button>
+
+</form>
+
+</div>
+
+<!-- Result Form -->
+<div class="container">
+
+<h2>Check Your Result</h2>
+
+<form>
+
+<input type="text" placeholder="Enter Hall Ticket Number">
+
+<input type="date">
+
+<br><br>
+
+<button type="submit">Get Result</button>
+
+</form>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Annamacharya University | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
